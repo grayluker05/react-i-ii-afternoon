@@ -1,0 +1,96 @@
+.black-container {
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-content-holder {
+    margin-top: 14vh;
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-end;
+    background: rgb(250, 249, 249);
+    width: 60vw;
+    height: 55vh;
+  }
+  
+  .main-text{
+      width: 100%;
+      height: 40vh;
+      justify-content: flex-start;
+      font-family: 'Cuprum', sans-serif;
+  }
+  
+  .slides{
+      font-weight: bold;
+      font-size: 2rem;
+      margin-right: 50px;
+      float: right;
+  }
+  
+  .full-name{
+      font-weight: bold;
+      font-size: 2rem;
+      margin-left: 50px;
+      text-decoration: underline;
+      text-decoration-color: rgb(67, 150, 245); 
+  }
+  
+  .employee-info-top{
+      margin: 20px 0px 20px 30px;
+      font-size: 1.3rem;
+  }
+  
+  .employee-info-bottom{
+      margin-left: 30px;
+      font-size: 1.3rem;
+  }
+  
+  .ol{
+      margin-left: 50px;
+  }
+  
+  .footer {
+    display: flex;
+   
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    
+  }
+  
+  .nav-buttons{
+     background: transparent; 
+     display: flex;
+     margin-top: 15px;
+     color: white;
+     border: none;
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-family: 'Cuprum', sans-serif;
+  }
+  
+  .nav-buttons:hover{
+      cursor: pointer;
+  }
+  
+  .center-buttons{
+      background: rgb(67, 150, 245);
+      font-size: 1rem;
+      border-radius: 15px;
+      margin: 10px 10px 0px 10px ;
+      border: none;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      font-family: 'Cuprum', sans-serif;
+  }
+  
+  .center-buttons:hover{
+      cursor: pointer;
+  }
+  
+  .left:hover {
+    cursor: pointer;
+  }
